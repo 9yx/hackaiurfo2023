@@ -3,5 +3,7 @@
 Датасет:
 https://universe.roboflow.com/firstisfirst
 
+Ссылка на модель:
+https://disk.yandex.ru/d/a60MSoM5EfnQog
 
-Модель(pb файл) положить в models (текущая обученная модель в директории обученная мождель)
+Модель(best.pb файл) положить в models
