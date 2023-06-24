@@ -1,7 +1,5 @@
 import numpy as np
 import cv2
-import copy
-from itertools import product
 
 background_subtractor = cv2.bgsegm.createBackgroundSubtractorMOG()
 
