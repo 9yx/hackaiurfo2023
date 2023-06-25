@@ -6,4 +6,8 @@ https://universe.roboflow.com/firstisfirst
 Ссылка на модель:
 https://disk.yandex.ru/d/a60MSoM5EfnQog
 
-Модель(best.pb файл) положить в models
+Модель(`best.pb` файл) положить в `models`
+Видео в `videos`
+После запуска выбрать видео из `videos`
+При окончании видео (либо нажатии кнопки q)
+Результирующий `json` разбрать из папки `temp`
