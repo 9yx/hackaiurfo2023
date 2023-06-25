@@ -15,3 +15,5 @@ https://disk.yandex.ru/d/a60MSoM5EfnQog
 При окончании видео (либо нажатии кнопки q)
 
 Результирующий `json` разбрать из папки `temp`
+
+![image](https://github.com/9yx/hackaiurfo2023/assets/546223/7ce5b1a8-6b85-42ad-b72c-aaf5d21aa962)
