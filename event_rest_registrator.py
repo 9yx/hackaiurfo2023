@@ -47,7 +47,7 @@ def register_rest(new_id, is_moved, cls, time):
         add_rest(new_id, cls, time)
 
     if last_rest is not None and is_moved is False:
-        add_or_reopen_rest(last_rest, new_id, time)
+        add_or_reopen_rest(last_rest, new_id, cls, time)
 
     if last_rest is not None and is_moved is True:
         closed_rest(last_rest, time)
@@ -62,12 +62,12 @@ def add_rest(new_id, cls, time):
     rest_list.append(rest)
 
 
-def add_or_reopen_rest(last_rest, new_id, time):
+def add_or_reopen_rest(last_rest, new_id, cls, time):
     if last_rest.end is None:
         return
 
     if time - last_rest.end > exp_time_second:
-        add_rest(new_id, time)
+        add_rest(new_id, cls, time)
     else:
         reopen_rest(last_rest)
 
