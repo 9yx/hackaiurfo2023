@@ -17,3 +17,5 @@ https://disk.yandex.ru/d/a60MSoM5EfnQog
 Результирующий `json` разбрать из папки `temp`
 
 ![image](https://github.com/9yx/hackaiurfo2023/assets/546223/7ce5b1a8-6b85-42ad-b72c-aaf5d21aa962)
+
+Пример json файла: https://disk.yandex.ru/d/ul-uI1vMVsVfPw
